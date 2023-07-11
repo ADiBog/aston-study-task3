@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="FirstWebApp:war" />
+      <artifact name="FirstWebApp:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d637acad-38f2-4c2e-800c-2a22ca0671da" name="Changes" comment="version work beer create and delete and select in 3 servlet and test" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="2cef55c8-90b9-4513-bfcb-1562863fcd16" />
+        <option name="url" value="https://github.com/ADiBog/aston-study-task3" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/index.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2SANjxjAB5koMUlpgk794ZOLmT2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/dronb",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dronb\IdeaProjects\aston-study-task3\src\test\resources" />
+      <recent name="C:\Users\dronb\IdeaProjects\aston-study-task3\src\main\webapp" />
+      <recent name="C:\Users\dronb\IdeaProjects\aston-study-task3\src\main\Test\com.example.firstwebapp" />
+      <recent name="C:\Users\dronb\IdeaProjects\aston-study-task3\src\main\Test" />
+      <recent name="C:\Users\dronb\IdeaProjects\FirstWebApp\src\main\webapp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dronb\IdeaProjects\aston-study-task3\src\main\Test\resources" />
+      <recent name="C:\Users\dronb\IdeaProjects\FirstWebApp\src\main\webapp\WEB-INF\lib" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.firstwebapp.Servlet" />
+      <recent name="com.example.firstwebapp.Service" />
+      <recent name="com.example.firstwebapp.Entity" />
+      <recent name="com.example.firstwebapp.DAO" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.76">
+    <configuration name="BeerDistributorServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FirstWebApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ServiceTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="ServiceTest.BeerDistributorServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeerServletTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FirstWebApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ServletTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ServletTest" />
+      <option name="MAIN_CLASS_NAME" value="ServletTest.BeerServletTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeerServletTest.testServletDel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FirstWebApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ServletTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ServletTest" />
+      <option name="MAIN_CLASS_NAME" value="ServletTest.BeerServletTest" />
+      <option name="METHOD_NAME" value="testServletDel" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeerServletTest.testServletGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FirstWebApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ServletTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ServletTest" />
+      <option name="MAIN_CLASS_NAME" value="ServletTest.BeerServletTest" />
+      <option name="METHOD_NAME" value="testServletGet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeerServletTest.testServletPost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FirstWebApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ServletTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ServletTest" />
+      <option name="MAIN_CLASS_NAME" value="ServletTest.BeerServletTest" />
+      <option name="METHOD_NAME" value="testServletPost" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.76" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.76" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="FirstWebApp:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/FirstWebApp_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="327f1850-a86c-41e0-bf4b-dc366a13dbc4" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62843" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="FirstWebApp:war" />
+          <artifact name="FirstWebApp:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BeerDistributorServiceTest" />
+        <item itemvalue="JUnit.BeerServletTest" />
+        <item itemvalue="JUnit.BeerServletTest.testServletGet" />
+        <item itemvalue="JUnit.BeerServletTest.testServletDel" />
+        <item itemvalue="JUnit.BeerServletTest.testServletPost" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d637acad-38f2-4c2e-800c-2a22ca0671da" name="Changes" comment="" />
+      <created>1688585568655</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688585568655</updated>
+      <workItem from="1688585569649" duration="4378000" />
+      <workItem from="1688624009464" duration="12874000" />
+      <workItem from="1688670514323" duration="15524000" />
+      <workItem from="1688710534306" duration="20933000" />
+      <workItem from="1688930373826" duration="6299000" />
+      <workItem from="1688936827649" duration="12772000" />
+      <workItem from="1688949746747" duration="45000" />
+      <workItem from="1688974910061" duration="9722000" />
+      <workItem from="1689016087062" duration="4547000" />
+      <workItem from="1689021973957" duration="2133000" />
+      <workItem from="1689024794805" duration="17941000" />
+    </task>
+    <task id="LOCAL-00001" summary="version work">
+      <option name="closed" value="true" />
+      <created>1688587321537</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688587321537</updated>
+    </task>
+    <task id="LOCAL-00002" summary="version work">
+      <option name="closed" value="true" />
+      <created>1688588623876</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688588623876</updated>
+    </task>
+    <task id="LOCAL-00003" summary="version work create and delete">
+      <option name="closed" value="true" />
+      <created>1688673763217</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688673763217</updated>
+    </task>
+    <task id="LOCAL-00004" summary="version work beer create and delete and select">
+      <option name="closed" value="true" />
+      <created>1688685287173</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688685287173</updated>
+    </task>
+    <task id="LOCAL-00005" summary="version work beer create and delete and select">
+      <option name="closed" value="true" />
+      <created>1688685301071</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688685301071</updated>
+    </task>
+    <task id="LOCAL-00006" summary="version work beer create and delete and select">
+      <option name="closed" value="true" />
+      <created>1688717493404</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1688717493404</updated>
+    </task>
+    <task id="LOCAL-00007" summary="version work beer create and delete and select in 1 servlet">
+      <option name="closed" value="true" />
+      <created>1688738568891</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1688738568891</updated>
+    </task>
+    <task id="LOCAL-00008" summary="version work beer create and delete and select in 1 servlet">
+      <option name="closed" value="true" />
+      <created>1688739259488</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1688739259488</updated>
+    </task>
+    <task id="LOCAL-00009" summary="version work beer create and delete and select in 1 servlet">
+      <option name="closed" value="true" />
+      <created>1688931162140</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1688931162140</updated>
+    </task>
+    <task id="LOCAL-00010" summary="version work beer create and delete and select in 1 servlet">
+      <option name="closed" value="true" />
+      <created>1688933849739</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1688933849739</updated>
+    </task>
+    <task id="LOCAL-00011" summary="version work beer create and delete and select in 1 servlet">
+      <option name="closed" value="true" />
+      <created>1688933888490</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1688933888490</updated>
+    </task>
+    <task id="LOCAL-00012" summary="version work beer create and delete and select in 2 servlet">
+      <option name="closed" value="true" />
+      <created>1688940326440</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1688940326440</updated>
+    </task>
+    <task id="LOCAL-00013" summary="version work beer create and delete and select in 2 servlet">
+      <option name="closed" value="true" />
+      <created>1688940361495</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1688940361495</updated>
+    </task>
+    <task id="LOCAL-00014" summary="version work beer create and delete and select in 3 servlet">
+      <option name="closed" value="true" />
+      <created>1688944208257</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1688944208257</updated>
+    </task>
+    <task id="LOCAL-00015" summary="version work beer create and delete and select in 3 servlet">
+      <option name="closed" value="true" />
+      <created>1688944228201</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1688944228201</updated>
+    </task>
+    <task id="LOCAL-00016" summary="version work beer create and delete and select in 3 servlet">
+      <option name="closed" value="true" />
+      <created>1688949783588</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1688949783588</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="executable:docker" />
+    <option featureType="dependencySupport" implementationName="executable:kubectl" />
+    <option featureType="dependencySupport" implementationName="maven-packaging:war" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="version work" />
+    <MESSAGE value="version work create and delete" />
+    <MESSAGE value="version work beer create and delete and select" />
+    <MESSAGE value="version work beer create and delete and select in 1 servlet" />
+    <MESSAGE value="version work beer create and delete and select in 2 servlet" />
+    <MESSAGE value="version work beer create and delete and select in 3 servlet" />
+    <option name="LAST_COMMIT_MESSAGE" value="version work beer create and delete and select in 3 servlet" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/firstwebapp/servlet/BeerServlet.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/firstwebapp/service/BeerService.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/firstwebapp/service/BeerService.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
