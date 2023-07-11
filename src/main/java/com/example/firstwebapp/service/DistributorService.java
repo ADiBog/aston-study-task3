@@ -35,7 +35,6 @@ public class DistributorService implements DistributorServiceDAO {
         }
         return distributors;
     }
-
     public void insert(Distributor distributor) {
         try {
             String sql = "INSERT INTO distributor (name) Values (?)";
@@ -47,7 +46,6 @@ public class DistributorService implements DistributorServiceDAO {
             System.out.println(ex);
         }
     }
-
     public void delete(int distributor_id) {
         try {
             String sql = "DELETE FROM distributor WHERE distributor_id = ?";

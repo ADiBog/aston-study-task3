@@ -50,7 +50,6 @@ public class BeerDistributorService implements BeerDistributorServiceDAO {
         }
     }
 
-
     public void delete(int beer_id) {
         try {
             String sql = "DELETE FROM bd WHERE beer_id = ?";

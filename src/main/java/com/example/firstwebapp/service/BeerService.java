@@ -44,7 +44,6 @@ public class BeerService implements BeerServiceDAO {
             System.out.println(ex);
         }
     }
-
     public void delete(int beer_id) {
         try {
             String sql = "DELETE FROM beer WHERE beer_id = ?";
